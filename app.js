@@ -28,10 +28,11 @@ app.post('/', function(req, res){
         ]
     };
     const jsonData=JSON.stringify(data);
-    const url ="https://us1.api.mailchimp.com/3.0/lists/f1df30dc60";
+    //replace X with X in usX of API key
+    const url ="https://usX.api.mailchimp.com/3.0/lists/Uniquie ID here";
     const options={
         method:"POST",
-        auth:"ArpitPandey:669f056b812d1f6d0bd4ee667b6387f0-us1"
+        auth:"ArpitPandey:API Key Here"
     };
     const request=https.request(url, options, function(response){
         if(response.statusCode===200)
@@ -55,6 +56,3 @@ app.post('/', function(req, res){
 app.listen(3000, ()=>{
     console.log('Server started');
 });
-
-//
-//
