@@ -1,4 +1,4 @@
-# 🐵 Mailchimp Subscription Form
+# 🐵 Mailchimp Subscription Form [NodeJS]
 ## Milchimp offers you Free email based subscription for your website. 
 
 🚀 You can use the code in this repository in your website in few easy steps.
